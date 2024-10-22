@@ -6,17 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanny95ch/random-str-msg-0.10.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-
-  "homepage":  "https://github.com/yanny95ch/random-str-msg-0.10",
+  "homepage": "https://github.com/yanny95ch/random-str-msg-0.10",
   "bin": {
     "randon-str-msg-0.10": "./bin/global.js"
   },
-  "preferGlobal": true
-
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
 }
-
-
-
